@@ -73,9 +73,9 @@ if (NDWI < -0) { // If NDWI is lower than 0 is not water, so return  true color
   imgVals = [...TrueColor, samples.dataMask];
 ```
 
-#### Filter by clouds
+#### Filter by clouds and other elements
 
-The purpose is to be able to make a subsequent filtering by removing the pixels containing clouds. This is achieved by the following function that use the SCL results:
+The purpose is to be able to make a subsequent filtering by removing the pixels containing clouds and other elements, like snow. This is achieved by the following function that use the SCL results:
 
 ```
 function isCloud(scl)
