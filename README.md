@@ -86,7 +86,7 @@ function isCloud(scl)
         <p align="center">
                 <img src="docs/img/Description_2_codes.png" width="250">
         </p>
-<span dir="">Based on this classification, the function will evaluate every pixel and return true for labels 1, 3, 8, 9, 10 and 11.</span> <span dir="">This will allo</span>w images with a high percentage of pixels considered as cloudy to be disregarded in the time series plot display.
+<span dir="">Based on this classification, the function will evaluate every pixel and return true for labels 1, 3, 8, 9, 10 and 11.</span> <span dir="">This will allo</span>w images with a high percentage of pixels considered as cloudy or defective to be disregarded in the time series plot display.
         <p align="center">
                 <img src="docs/img/Description_3_filtering.png" width="900">
         </p>
