@@ -1,6 +1,3 @@
-# **Evaluate and visualize**
-
-? como hacerlo??? 
 
 # **General description**
 MAGO Water Quality Monitoring tool is a code to estimates water quality parameters in lakes, reservoir or large ponds from Sentinel-2 images. The user can visualize water quality parameters (chlorophyll-a, cyanotoxins, turbidity...) on the EO Browser map  and get the corresponding time series at selected points or areas.
